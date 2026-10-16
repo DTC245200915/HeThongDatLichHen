@@ -1,9 +1,21 @@
 
 const express = require("express");
+const promClient = require("prom-client");
+
+promClient.collectDefaultMetrics();
 const path = require("path");
 const { Pool } = require("pg");
 
 const app = express();
+app.get("/metrics", async (req, res) => {
+  try {
+    res.set("Content-Type", promClient.register.contentType);
+    res.end(await promClient.register.metrics());
+  } catch (error) {
+    console.error("Lỗi lấy metrics:", error);
+    res.status(500).end("Không thể lấy metrics");
+  }
+});
 const PORT = process.env.PORT || 3000;
 
 // Kết nối PostgreSQL
