@@ -104,7 +104,7 @@ Lưu ý: File `.env` chứa các thông tin cấu hình riêng và không đư�
 ### Bước 2: Tải mã nguồn
 
 ```bash
-git clone https://github.com/dtc245200915-source/HeThongDatLichHen.git
+git clone https://github.com/dtc245200915/HeThongDatLichHen.git
 cd HeThongDatLichHen
 ```
 
@@ -209,7 +209,7 @@ Mã nguồn và các file cấu hình được quản lý bằng Git và GitHub.
 
 Repository:
 
-https://github.com/dtc245200915-source/HeThongDatLichHen
+https://github.com/dtc245200915/HeThongDatLichHen
 
 Các nhóm thay đổi chính gồm:
 
