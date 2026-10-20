@@ -1,4 +1,4 @@
-# HỆ THỐNG ĐẶT LỊCH HẸN (APPOINTMENT SYSTEM)
+﻿# HỆ THỐNG ĐẶT LỊCH HẸN (APPOINTMENT SYSTEM)
 
 ## 1. Giới thiệu
 
@@ -132,6 +132,7 @@ docker compose ps
 docker compose config --quiet
 ```
 
+
 ## 7. Địa chỉ truy cập
 
 | Dịch vụ | Địa chỉ |
@@ -139,7 +140,7 @@ docker compose config --quiet
 | Website qua Nginx | http://localhost:8085 |
 | Ứng dụng Node.js | http://localhost:3005 |
 | pgAdmin | http://localhost:5050 |
-| Prometheus | http://localhost:9090 |
+| Prometheus | http://localhost:9091 |
 | Grafana | http://localhost:3006 |
 
 Các địa chỉ trên áp dụng cho môi trường triển khai cục bộ đã cấu hình.
