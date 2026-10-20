@@ -2,3 +2,5 @@
 node_modules/
 *.log
 .vscode/
+.env.backup
+docker-compose.backup.yml
